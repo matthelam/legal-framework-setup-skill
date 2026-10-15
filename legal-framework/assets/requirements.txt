@@ -1,0 +1,4 @@
+# Repository Memory (Common Law) — the only third-party dependency.
+# scripts/memory.py parses and writes OKF frontmatter with it, so without this
+# every memory command fails and the hook reports that it cannot read memory.
+PyYAML>=6.0
